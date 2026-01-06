@@ -21,6 +21,7 @@ vim.cmd([[
 
 require("sam.basic")
 require("sam.colorscheme")
+require("sam.keymaps")
 require("plugins.lsp-config")
 require("plugins.nvim-cmp")
 require("bufferline").setup{}
